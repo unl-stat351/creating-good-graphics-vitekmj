@@ -1,0 +1,96 @@
+---
+title: "Creating Good Graphics TILT Information"
+format: html
+---
+
+## Purpose
+
+One of the most critical skills for statisticians and data scientists is to be able to **communicate** results effectively.
+Data visualization is a critical tool for communication - it leverages visual channels (higher bandwidth) and relays data based on the internal relationships that are displayed and highlighted graphically.
+This comes at a cost -- we have to understand the human visual system in order to develop graphics that are effective.
+
+### Skills
+
+This assignment will help you practice the following skills which are important for creating good data visualizations:
+
+- Analyze graphics to determine effectiveness based on:
+  - Use of Gestalt principles
+  - Hierarchies of accurate estimation (geoms)
+  - Appropriate geometric object representation
+
+- Create graphics which are intended to communicate a specific message
+
+- Carefully select annotations to assist users with appropriate interpretation of visualizations
+
+- Consider accessibility when creating graphics and write appropriate alt-text for screen reader users
+
+
+### Knowledge
+
+- Basic understanding of short term memory, color vision, Gestalt heuristics, and other concepts in cognitive psychology important for constructing data visualizations.
+
+- Grammar of graphics syntax and layering mechanisms
+
+
+
+## Success Criteria
+
+### General Criteria
+
+- [ ] Student's name is included at top of assignment
+- [ ] Document compiles on a different machine
+- [ ] Compiled document is formatted well
+- [ ] All code in the document is contained in appropriately formatted code chunks
+- [ ] Compiled document does not include long sections of printed data, making use of `head` and `tail` commands to show only a few rows of data during data cleaning.
+- [ ] Student answers are below the `---` separator and above the next prompt, or in cases where questions are enumerated, student answers are indicated using the quote indicator, `> ` and the placeholder text `Your answer here` has been removed and replaced with the answer. 
+
+
+### Task specific Criteria
+
+1. Graphical Critiques
+  - [ ] Each chart has an appropriate caption
+  - [ ] Each chart has appropriate alt-text that provides essential information to a visually impaired individual or screen-reader user. 
+  - [ ] YAML chunk options are formatted correctly and compile.
+  
+  - [ ] Grammar of graphics table is filled out correctly. 
+  
+  - [ ] Analysis of effective communication in each chart is reasonable. 
+    - [ ] Charts that ineffectively show changes in vaccine rates over time across different age groups 
+        - [ ] are identified and 
+        - [ ] an explanation of *why* they are ineffective is provided.
+    - [ ] Charts that are appropriate but perhaps suboptimal 
+        - [ ] have issues identified and 
+        - [ ] what would be changed to address the issue is provided and appropriate. 
+  
+  - [ ] Gestalt principles of grouping 
+    - [ ] Principles that apply are ID'd for each chart
+    - [ ] Principle effectiveness is evaluated
+  
+  - [ ] Message Evaluation
+    - [ ] Important messages from the data set are identified
+    - [ ] Comparisons that should be easy to perform are identified
+    - [ ] Obstacles are provided (if there are any, if not, "no obstacles" is an ok answer... but be careful with its use.)
+    
+  - [ ] Improved chart is created, and changes relative to initial charts are explained. 
+    - [ ] Explanation focuses on each change and how it improves the chart/makes it easier to read.
+    
+2. Choose Your Own Adventure
+  - [ ] Population size estimates are calculated correctly for each year of data. 
+    - [ ] Population size is merged into the dataset appropriately
+  
+  - [ ] Plot from 1.6 is generated using the real data. 
+    - [ ] Change to the message when using real data is examined
+    - [ ] Analysis of change in difficulty when using real data is included
+  
+  - Annotations 
+    - [ ] Suggested annotations are reasonable
+    - [ ] Annotations do not over-clutter the chart
+  
+  - [ ] Modifications to compare 2023 to 2024 vaccination rates are reasonable
+    - [ ] Cognitive load considerations are included
+    - [ ] Modifications actually make the comparisons easier for the reader
+  
+  - [ ] Suggestions for statistical significance are reasonable and explanation is thorough.
+  
+
+
